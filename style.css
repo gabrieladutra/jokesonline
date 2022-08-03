@@ -1,0 +1,7 @@
+body {
+    background-image: linear-gradient(to right, rgb(240, 83, 83), rgb(212, 212, 102));
+}
+
+.main_text_container {
+    margin: 200px 500px 100px 700px;
+}
