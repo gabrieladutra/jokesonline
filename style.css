@@ -3,5 +3,10 @@ body {
 }
 
 .main_text_container {
-    margin: 200px 500px 100px 700px;
+    margin: 200px 500px 100px 600px;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
 }
