@@ -6,7 +6,26 @@ body {
     margin: 200px 500px 100px 600px;
 }
 
-h1 {
-    font-size: 55px;
+.main_text {
+    height: 100px;
+    width: 600px;
+    background-color: azure;
+    color: black;
     text-align: center;
+    position: relative;
+    border-radius: 8px;
+    vertical-align: bottom;
+}
+
+button {
+    margin-top: 100px;
+    display: inline-block;
+    margin-left: 100px;
+    border-radius: 8px;
+    font-size: 30px;
+    background-image: linear-gradient(to right, rgb(240, 83, 83), rgb(212, 212, 102));
+}
+
+h1 {
+    margin: 300px 100px 200px;
 }
