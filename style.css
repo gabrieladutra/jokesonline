@@ -29,3 +29,9 @@ button {
 h1 {
     margin: 300px 100px 200px;
 }
+
+p {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
