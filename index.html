@@ -15,7 +15,7 @@
             <p id="msg"></p>
         </div>
         <div class="jokes_buttom">
-            <button type="button" id="myBtn" onclick="print1()">"Quero minha piada agora"</button>
+            <button type="button" id="myBtn" onclick="displayItem()">"Quero minha piada agora"</button>
             <p id="test"></p>
         </div>
     </div>
@@ -26,8 +26,7 @@
         let jokes = ["Qual é a cidade brasileira que não tem táxi? R: Uberlândia.", "Por que o rádio"];
         jokes.push("test")
 
-        function print1() {
-            //document.getElementById("test").innerHTML = jokes[getRandomJoke(jokes.length)] }
+        function displayItem() {
             document.getElementById("test").innerHTML = jokes[getRandomJoke(jokes.length)]
         }
     </script>
